@@ -1,0 +1,1 @@
+export const DOMAIN = "https://punchh-auth-checkout.web.app"
