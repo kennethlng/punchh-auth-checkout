@@ -8,7 +8,7 @@ You can download the project and run the app locally in development mode. When t
 
 ## Stack
 
-The web app was made with React, using Material UI as the UI framework, and hosted on Firebase Hosting. I used [`axios`](https://github.com/axios/axios) as the HTTP client for making API requests. 
+The web app was made with React, using [Material UI](https://material-ui.com) as the UI framework, and hosted on [Firebase Hosting](https://firebase.google.com). I used [axios](https://github.com/axios/axios) as the HTTP client for making API requests. 
 
 ## How It Works
 
