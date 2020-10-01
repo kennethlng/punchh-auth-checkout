@@ -12,9 +12,17 @@ The web app was made with React, using Material UI as the UI framework, and host
 
 ## How It Works
 
+### Authentication
+
+At the start of opening the web app, there will be a backdrop that blocks any user input. The backdrop is there to authorize the redirect uri, generate the access token, and then get the user object. Once the user object is obtained, the backdrop is removed so the user can begin checking out.  
+
+> I have temporarily disabled the backdrop as I wasn't unable to get it working correctly. 
+
+### Checkout
+
 The web app features a simple checkout flow with three steps.
 
-### 1. Personal Information
+#### Step 1: Personal Information
 
 ![](https://github.com/kennethlng/punchh-auth-checkout/blob/master/personal-info-form.png)
 
@@ -41,7 +49,7 @@ export function updateUser(user) {
 }
 ```
 
-### 2. Payment Method
+#### Step 2: Payment Method
 
 ![](https://github.com/kennethlng/punchh-auth-checkout/blob/master/payment-form.png)
 
@@ -73,7 +81,7 @@ export function createRedemption(authentication_token, redemption_code, menu_ite
 }
 ```
 
-### 3. Review Order
+#### Step 3: Review Order
 
 ![](https://github.com/kennethlng/punchh-auth-checkout/blob/master/review-order-form.png)
 
