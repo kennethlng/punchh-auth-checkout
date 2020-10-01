@@ -104,5 +104,3 @@ export function createCheckin(authentication_token, receipt_amount, menu_items, 
     })
 }
 ```
-
-## Issues
